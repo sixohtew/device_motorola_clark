@@ -23,7 +23,7 @@ PRODUCT_COPY_FILES := device/sample/etc/apns-full-conf.xml:system/etc/apns-conf.
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
-PRODUCT_NAME := aosp_clark
+PRODUCT_NAME := aokp_clark
 PRODUCT_DEVICE := clark
 PRODUCT_BRAND := Android
 PRODUCT_MODEL := XT1575
@@ -32,7 +32,7 @@ PRODUCT_MANUFACTURER := motorola
 $(call inherit-product, device/motorola/clark/device.mk)
 $(call inherit-product-if-exists, vendor/motorola/clark/clark-vendor.mk)
 
-PRODUCT_NAME := aosp_clark
+PRODUCT_NAME := aokp_clark
 
 PRODUCT_PACKAGES += \
     Launcher3
